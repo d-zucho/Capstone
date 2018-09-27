@@ -1,0 +1,121 @@
+/* ---------------
+Base Styles
+--------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Helvetica;
+}
+/* ---------------
+Header Styles
+--------------- */
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+.name{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+
+}
+
+.name img {
+    height: 50px;
+}
+
+.academy {
+    color: #9b9b9b;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 24px;
+}
+
+.nav ul li {
+    padding-left: 16px;
+}
+
+/* ---------------
+Banner 1 Styles
+--------------- */
+
+.banner-one {
+    max-width: 1600px;
+    background-color: #d7d7d7;
+    display: flex;
+}
+
+.learning {
+    width: 60%;
+    padding: 32px 24px;
+    overflow: hidden;
+}
+
+.learning img {
+    width: 100%;
+}
+
+.banner-one-text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+
+.banner-one-text h2 {
+    font-size: 2.2rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.banner-one-text span:first-of-type {
+    margin-top: 1.5rem;
+}
+
+.banner-one-text span {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.button {
+    margin-top: 1.5rem;
+    padding: .5rem 0;
+    background-color: #4b4b4b;
+    text-align: center;
+    color: white;
+}
