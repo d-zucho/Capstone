@@ -122,7 +122,7 @@ Banner 1 Styles
 }
 
 /* ---------------
-Banner 2 Styles
+Banner 2 Styles -L
 --------------- */
 
 .banner-two {
@@ -146,8 +146,65 @@ Banner 2 Styles
 .practicing h2 {
     font-size: 1.7rem;
     font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 24px;
 }
+
+.practicing p {
+    margin-bottom: 32px;
+}
+
+.practicing span {
+    margin-bottom: 32px;
+}
+
+
+/* ---------------
+Banner 2 Styles -R
+--------------- */
+
 
 .more-articles {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.more-articles img {
+    width: 40%;
+    height: auto;
+    padding: 16px;
+    float: left;
+    
+}
+
+.more-articles img.first {
+    padding-top: 32px;
+}
+
+.info {
+    line-height: 1.5;
+}
+
+.articles-right .one {
+    padding-top: 70px;
+}
+
+.articles-right .two {
+    padding-top: 55px;
+}
+
+.articles-right .three {
+    padding-top: 45px;
+}
+
+.info h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.info span {
+    font-size: .8rem;
+    padding-bottom: 8px;
 }
