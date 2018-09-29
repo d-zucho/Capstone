@@ -208,3 +208,41 @@ Banner 2 Styles -R
     font-size: .8rem;
     padding-bottom: 8px;
 }
+
+
+
+.banner-three {
+    max-width: 1600px;
+    min-width: 888px;
+    background-color: #d7d7d7;
+    padding: 32px 72px;
+}
+
+.banner-three h2 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+
+
+}
+
+.banner-three .container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    
+}
+
+.row .box {
+    width: 45%;
+    padding: 8px 16px;
+   
+}
+
+.row img {
+    width: 100%;
+}
