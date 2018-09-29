@@ -209,6 +209,9 @@ Banner 2 Styles -R
     padding-bottom: 8px;
 }
 
+.info a {
+    display: block;
+}
 
 
 .banner-three {
@@ -216,6 +219,7 @@ Banner 2 Styles -R
     min-width: 888px;
     background-color: #d7d7d7;
     padding: 32px 72px;
+    
 }
 
 .banner-three h2 {
@@ -245,4 +249,27 @@ Banner 2 Styles -R
 
 .row img {
     width: 100%;
+}
+
+.box-text {
+    background-color: white;
+    color: #9b9b9b;
+    margin-top: -3px;
+    height: 160px;
+}
+
+.box-text h3 {
+    font-weight: 800;
+    padding: 16px;
+    color: black;
+}
+
+.box-text span {
+    padding: 16px;
+}
+
+.box-text p {
+    padding: 16px;
+    font-size: 0.9rem;
+
 }
