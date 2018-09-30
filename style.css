@@ -213,6 +213,9 @@ Banner 2 Styles -R
     display: block;
 }
 
+/* ---------------
+Banner 3 Styles 
+--------------- */
 
 .banner-three {
     max-width: 1600px;
@@ -272,4 +275,31 @@ Banner 2 Styles -R
     padding: 16px;
     font-size: 0.9rem;
 
+}
+
+/* ---------------
+Banner 4 Styles -L
+--------------- */
+
+.banner-four {
+    max-width: 1600px;
+    min-width: 888px;
+    background-color: white;
+    padding: 32px 24px;
+}
+
+.thesis-title {
+    font-size: 1.7rem;
+    font-weight: 888;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.video-main {
+    width: 60%;
+}
+
+video {
+    width: 100%;
 }
