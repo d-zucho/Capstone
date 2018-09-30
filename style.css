@@ -168,6 +168,7 @@ Banner 2 Styles -R
     width: 40%;
     display: flex;
     flex-direction: column;
+    border-left: 1px solid lightgray;
 
 }
 
@@ -187,12 +188,17 @@ Banner 2 Styles -R
     line-height: 1.5;
 }
 
+.articles-right {
+    border-bottom: 1px solid lightgray;
+}
+
 .articles-right .one {
     padding-top: 70px;
 }
 
 .articles-right .two {
     padding-top: 55px;
+
 }
 
 .articles-right .three {
@@ -296,10 +302,94 @@ Banner 4 Styles -L
     margin-bottom: 32px;
 }
 
-.video-main {
+.container-main-four {
+    display: flex;
+}
+
+.container-left {
     width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.video-left {
+    margin-right: 24px;
 }
 
 video {
     width: 100%;
+    margin: 0 24px 24px 0;
 }
+
+.container-left h3 {
+    font-weight: 800;
+}
+
+.text-left p {
+    margin: 8px 0 32px 0;
+    color: #9b9b9b;
+    font-size: 0.9rem;
+}
+
+.four-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.four-box {
+    display: flex;
+    align-items: center;
+}
+
+.four-box img {
+    width: 35%;
+    padding: 16px;
+}
+
+.four-box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.four-box h3 {
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.four-box-text p {
+    font-size: 0.9rem;
+    color: #9b9b9b;
+}
+
+.four-box:first-of-type {
+    background-color: #d7d7d7;
+}
+
+.four-box-text p{
+    color: black;
+}
+
+/* ---------------
+    Footer Styles
+--------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    height: 75px;
+}
+
+.copyright, footer div {
+    padding: 16px 24px;
+}
+
+footer span:first-of-type {
+    padding-right: 10px;
+}
+
+
+
+
