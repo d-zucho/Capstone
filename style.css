@@ -30,12 +30,14 @@ body {
 Header Styles
 --------------- */
 
+
 header {
     height: 64px;
     display: flex;
     justify-content: space-between;
     font-family: Helvetica, sans-serif;
 }
+
 
 
 
@@ -388,6 +390,75 @@ footer {
 
 footer span:first-of-type {
     padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .body {
+        max-width: 480px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .header-mobile {
+        height: 64px;
+        width: 100%;
+    }
+
+    .icon-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+
+    .banner-one-mobile {
+        max-width: 480px;
+    }
+
+    .banner-one-mobile img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+
+    .banner-two-mobile {
+        background: #d7d7d7;
+        max-width: 480px;
+    }
+
+    .banner-two-mobile h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        padding: 0 16px 32px 16px;
+
+    }
+
+    .banner-two-mobile p {
+        font-size: 2rem;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        font-weight: bold;
+
+    }
+
+    .button-mobile {
+        background: #9b9b9b;
+        color: white;
+        width: 90%;
+        margin-left: 16px;
+       
+    }
+
+    .button-mobile p {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 
